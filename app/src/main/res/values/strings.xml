@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string-array name="PlacesName">
+        <item>The Imperial Palace</item>
+        <item>National Art Center</item>
+        <item>National Museum of nature and science</item>
+        <item>The Senso-ji Temple</item>
+        <item>The SkyTree Tower</item>
+    </string-array>
+
+    <string-array name="ParksName">
+        <item>Todoroki Valley</item>
+        <item>Chichibu-Tama-Kai National Park</item>
+        <item>Hama Rikyu</item>
+        <item>Yoyogi Park</item>
+        <item>Shinjuku Gyoen</item>
+    </string-array>
+
+    <string-array name="RestaurantName">
+        <item>Ginza Kojyu</item>
+        <item>Ishikawa</item>
+        <item>L’Effervescence</item>
+        <item>Sukiyabashi Jiro</item>
+        <item>Sushi Yoshitake</item>
+    </string-array>
+
+    <string-array name="PlacesDescription">
+        <item>The Tokyo Imperial Palace (皇居, Kōkyo, literally Imperial Residence) is the usual
+            residence of the Emperor of Japan.It is a large park-like area located in the Chiyoda
+            district of the Chiyoda ward of Tokyo and contains several buildings including the main
+            palace (宮殿, Kyūden), some residences of the Imperial Family, an archive, museums and
+            administrative offices. Working hours: 9am - 2pm</item>
+        <item>The National Art Center (国立新美術館, Kokuritsu Shin-Bijutsukan) (NACT) is a museum in
+            Roppongi, Minato, Tokyo, Japan. A joint project of the Agency for Cultural Affairs and
+            the National Museums Independent Administrative Institution, it stands on a site formerly
+            occupied by a research facility of the University of Tokyo. The building has been designed
+            by Kisho Kurokawa. Working hours: 10am - 6pm</item>
+        <item>The National Museum of Nature and Science (国立科学博物館, Kokuritsu Kagaku Hakubutsukan)
+            is in the northeast corner of Ueno Park in Tokyo. Opened in 1871, it has had several names,
+            including Ministry of Education Museum, Tokyo Museum, Tokyo Science Museum, the National
+            Science Museum of Japan, and the National Museum of Nature and Science as of 2007. Working hours: 7am - 5pm</item>
+        <item>Sensō-ji (金龍山浅草寺, Kinryū-zan Sensō-ji) is an ancient Buddhist temple located in
+            Asakusa, Tokyo, Japan. It is Tokyo oldest temple, and one of its most significant.
+            Formerly associated with the Tendai sect of Buddhism, it became independent after World
+            War II. Adjacent to the temple is a five-story pagoda, the Asakusa Shinto shrine, as
+            well as many shops with traditional goods in the Nakamise-dōri. Working hours: 6am - 5pm</item>
+        <item>Tokyo Skytree (東京スカイツリー, Tōkyō Sukaitsurī, stylized TOKYO SKYTREE) is a broadcasting
+            and observation tower in Sumida, Tokyo. It became the tallest structure in Japan in 2010
+            and reached its full height of 634.0 meters (2,080 ft) in March 2011, making it the tallest
+            tower in the world, displacing the Canton Tower, and the second tallest structure in the
+            world after the Burj Khalifa (829.8 m/2,722 ft). Working hours: 9am - 9pm</item>
+    </string-array>
+
+    <string-array name="ParksDescription">
+        <item>The only valley in the city, it comprises a roughly one-kilometer walking trail that
+            winds along lazily next to the Yazawa River. As soon as you descend into the narrow ravine,
+            you’ll notice the air become cooler and the atmosphere more tranquil. Todoroki is rarely
+            busy, making it the perfect place to escape the city (while still being in it). Benches
+            are dotted along the route, where you can sit and relax, have lunch, or read a book while
+            listening to the gentle sound of the river. Working hours: 24/7</item>
+        <item>Chichibu-Tama-Kai National Park is a national park in Japan at the intersection of
+            Saitama, Yamanashi, Nagano and Tokyo Prefectures.With eight peaks over 2000 m scattered
+            over 1250 km², there are numerous hiking trails and ancient shrines. The best known landmarks
+            are Mount Mitsumine, home to the 2000-year-old Mitsumine Shrine and Mount Mitake, with
+            the Musashi-Mitake Shrine. The park has sources of major rivers such as the Arakawa River,
+            Shinano River, Tama River, and Fuefuki River (Fuji River). Working hours: 4am - 6pm</item>
+        <item>Hamarikyu Gardens is a public park in Chūō ward, Tokyo, Japan. Located at the mouth of
+            the Sumida River, it was opened to the public on April 1, 1946. A landscaped garden of
+            250,216 m² includes Shio-iri Pond, and the park is surrounded by a seawater moat filled
+            by Tokyo Bay. It was remodeled as a public park on the site of a villa belonging to the
+            ruling Tokugawa family in the 17th century. Working hours: 9am - 5pm</item>
+        <item>The park is a popular Tokyo destination. On Sundays, it is especially busy when it is
+            used as a gathering place for Japanese rock music fans, jugglers, comedians, martial arts
+            clubs, cosplayers and other subculture and hobby groups.[1] In spring, thousands of people
+            visit the park to enjoy the cherry blossom during hanami. The landscaped park has picnic
+            areas, bike paths, cycle rentals and public sport courts. Working hours: 24/7</item>
+        <item>Shinjuku Gyo-en (新宿御苑) is a large park and garden in Shinjuku and Shibuya, Tokyo,
+            Japan. It was originally a residence of the Naitō family in the Edo period. Afterwards,
+            it became a garden under the management of the Imperial Household Agency of Japan. It is
+            now a national park under the jurisdiction of the Ministry of the Environment. Working hours: 9am - 4pm</item>
+    </string-array>
+
+    <string-array name="RestaurantDescription">
+        <item>Ginza Kojyu is one of the best places in Tokyo to experience kaiseki dining. The cozy
+            interior creates the feeling of a meal prepared in someone’s home, with the servers
+            describing each dish as diners watch it being prepared at the counter. The seasonal menu
+            emphasises traditional Japanese cuisine, along with a few experimental dishes. The restaurant
+            is quite small and relatively affordable, so it’s best to reserve a table in advance.
+            Working hours: 12am - 21pm</item>
+        <item>Ishikawa offers an all-round intimate dining experience, from the attentive staff who
+            help customers find their way to the restaurant’s hidden alleyway location to the chef
+            who typically comes around to tables ensuring all diners are satisfied. Guests are presented
+            with several fixed courses which typically consist of an appetiser, soup, sashimi, and a
+            grilled main. Seating is offered in elegant private dining areas or along the cypress-wood
+            counter with a view of Chef Hideki Ishikawa at work. The kimono-clad servers are a nod
+            to the neighbourhood’s history as a prominent geisha district. Working hours: 5pm - 9pm</item>
+        <item>L’Effervescence, a French term that translates to ‘bubbles’, ‘that which makes people
+            gather’, or ‘lively’ depending on the context, befits this restaurant perfectly. The dishes
+            here exude a touch of playfulness, such as its upscale take on the McDonald’s takeaway
+            apple pie made with wild boar or sage and matutake mushrooms, served in a red takeaway
+            box. The restaurant is known for its exquisite desserts, including its caramelized apple
+            and kuromoji ice cream served with muesli. The setting in an elegant Japanese style, and
+            an excellent menu of French wines complement the innovative menu. Working hours: 12am - 12pm</item>
+        <item>After winning three stars from the Michelin Guide, Sukiyabashi Jiro has become one of
+            the most famous sushi restaurants in the world. The chef and owner, Jiro Ono, was the
+            star of David Gelb’s 2011 documentary, ‘Jiro Dreams of Sushi’, which put his tiny restaurant
+            firmly on the traveller’s map. It’s pretty no-frills, with a simple sushi bar only sitting
+            a few guests, who are served a set menu of beautifully prepared and selected sushi. Anyone
+            who saw the documentary will recognise Jiro and his team’s attention to detail, from choosing
+            the fish in the early hours, to massaging an octopus for a whole morning. Working hours: 12am - 8pm</item>
+        <item>Having earned three stars from Michelin, sushi chef Masahiro Yoshitake has put his
+            sushi restaurant, Sushi Yoshitake , on the map. Expect inventive interpretations of
+            classic sushi dishes. Yoshitake is particularly famous for his abalone, accompanied with
+            a special sauce made from abalone liver, uni and oyster. Serving small plates in the
+            omakase style in front of the clientele, Toshitake only takes reservations for two sittings
+            each night and demand is high, so be sure to call far in advance for your table. Working hours: 6pm - 11pm</item>
+    </string-array>
+
+    <string-array name="PlacesAddress">
+        <item>1-1 Chiyoda, Chiyoda City, Tokyo 100-8111</item>
+        <item> 7-22-2 Roppongi Minato-ku Tokyo 106-8558</item>
+        <item>7-20 Uenokoen, Taito, Tokyo 110-8718</item>
+        <item>2 Chome-3-1 Asakusa, Taito, Tokyo 111-0032</item>
+        <item>1 Chome-1-2 Oshiage, Sumida, Tokyo 131-0045</item>
+    </string-array>
+
+    <string-array name="ParksAddress">
+        <item>22, 1 Chome, Todoroki Setagaya City, Tokyo, 158-0082</item>
+        <item>Tokura Akiruno, Tokyo, 190-0173</item>
+        <item>Hama Rikyu, 1-1 Hamarikyuteien, Chuo, Tokyo</item>
+        <item>1 2, Yoyogikamizonochō Shibuya City, Tokyo, 151-0052</item>
+        <item>Shinjuku Gyoen, 11 Naitomachi, Shinjuku, Tokyo</item>
+    </string-array>
+
+    <string-array name="RestaurantAddress">
+        <item>Ginza Kojyu, Carioca Bldg. 4fl., 5 Chome-4-8 Ginza, Chuo, Tokyo</item>
+        <item>Ishikawa, 162-0825, Shinjuku-ku, Tokyo Kagurazaka 5-37 Takamura Building 1F -JR Sobu, Tokyo</item>
+        <item>L’Effervescence, 2-26-4 Nishiazabu, Minato, Tokyo</item>
+        <item>15 2, 4-chōme, Ginza Chuo City, Tokyo, 104-0061</item>
+        <item>Sushi Yoshitake, 銀座8-7-19, Chūō, 東京都 〒104-0061</item>
+    </string-array>
+
+    <string-array name="PlacesPhone">
+        <item>+81 3-3213-1111</item>
+        <item>+81 3-5777-8600</item>
+        <item>+81 3-5777-8600</item>
+        <item>+81 3-3842-0181</item>
+        <item>+81 570-550-634</item>
+    </string-array>
+
+    <string-array name="ParksPhone">
+        <item>+81 3-3704-4972</item>
+        <item>+81 3-3641-5892</item>
+        <item>+81 3-3541-0200</item>
+        <item>+81 3-3469-6081</item>
+        <item>+81 3-3350-0151</item>
+    </string-array>
+
+    <string-array name="RestaurantPhone">
+        <item>+81 3-6215-9544</item>
+        <item>+81 3-5225-0173</item>
+        <item>+81 3-5766-9500</item>
+        <item>+81 3 3535-3600</item>
+        <item>+81 3-6253-7331</item>
+    </string-array>
+
+</resources>
