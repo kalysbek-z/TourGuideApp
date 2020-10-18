@@ -38,8 +38,8 @@ public class ContentAdapter extends ArrayAdapter<Content> {
         // Title
         //
         ImageView placeImage = (ImageView) listItemView.findViewById(R.id.image);
-        placeImage.setImageResource(currentContent.getImageResId());
-
+        // placeImage.setImageResource(currentContent.getImageResId());
+        Glide.with(getContext()).load(currentContent.getImageResId()).into(placeImage);
 
         final TextView titleTextView = (TextView) listItemView.findViewById(R.id.title);
         titleTextView.setText(currentContent.getPlaceName());
